@@ -188,7 +188,7 @@ export default {
      */
     closeOnSelect: {
       type: Boolean,
-      default: true
+      default: false
     },
     /**
      * Close the dropdown when mouse leaves options area

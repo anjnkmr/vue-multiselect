@@ -8,7 +8,7 @@
     @keydown.self.up.prevent="pointerBackward()"
     @keydown.enter.tab.stop.self="addPointerElement($event)"
     @keyup.esc="deactivate()"
-    @mouseleave="deactivate()"
+    @mouseleave="closeOnMouseLeave ? deactivate() : ''"
     class="multiselect">
       <slot name="caret" :toggle="toggle">
         <div @mousedown.prevent.stop="toggle()" class="multiselect__select"></div>
