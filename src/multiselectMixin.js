@@ -191,6 +191,15 @@ export default {
       default: true
     },
     /**
+     * Close the dropdown when mouse leaves options area
+     * @default true
+     * @type {Boolean}
+     */
+    closeOnMouseLeave: {
+      type: Boolean,
+      default: true
+    },
+    /**
      * Function to interpolate the custom label
      * @default false
      * @type {Function}
