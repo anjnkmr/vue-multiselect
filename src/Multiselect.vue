@@ -131,12 +131,12 @@
       },
       /**
        * String to show when pointing to an option
-       * @default 'Press enter to select'
+       * @default ''
        * @type {String}
        */
       selectLabel: {
         type: String,
-        default: 'Press enter to select'
+        default: ''
       },
       /**
        * String to show next to selected option
@@ -149,12 +149,12 @@
       },
       /**
        * String to show when pointing to an alredy selected option
-       * @default 'Press enter to remove'
+       * @default ''
        * @type {String}
       */
       deselectLabel: {
         type: String,
-        default: 'Press enter to remove'
+        default: ''
       },
       /**
        * Decide whether to show pointer labels
